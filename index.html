@@ -4,7 +4,10 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Custom CSS -->
         <link href="style/style.css" rel="stylesheet">
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="style/responsive.css">
         <!-- Fontawesome CDN Link -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
          <!-- Ajax Script -->
@@ -17,7 +20,7 @@
             <header>
                 <div class="navbar-logo-con">
                     <div class="logo-con">
-                        <img class="logo" src="images/AMT19.PNG" alt="">
+                        <a href=""><img class="logo" src="images/AMT19.PNG" alt=""></a>
                         <div class="hamburger">
                             <div class="line"></div>
                             <div class="line"></div>
@@ -27,10 +30,10 @@
                     <nav class="nav-bar">
                         <ul>
                             <li><a href="#welcome-main">Home</a></li>
-                            <li><a href="#about-us-con">About Us</a></li>
-                            <li><a href="#slideshow-container">Our Themes</a></li>
-                            <li><a href="#services">Our Services</a></li>
-                            <li><a href="#our-plans-pricing-con">Pricing & Plans</a></li>
+                            <li><a href="#our-story-con">Our Story</a></li>
+                            <li><a href="#our-menu-con">Our Menu</a></li>
+                            <li><a href="#our-best-seller-con">Our Best Seller</a></li>
+                            <li><a href="#contact-con">Contact Us</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -39,7 +42,7 @@
                 </div>
             </header>
             <!-- Welcome starts here -->
-            <section class="welcome-main" >
+            <section class="welcome-main" id="welcome-main">
                 <div class="welcome-desc-con">
                     <h1 class="heading">Our family gets a little bigger every time you come by.
                     </h1>
@@ -47,13 +50,17 @@
             </section> 
         </div>
         <!-- Our story starts here -->
-        <div class="our-story-con">
+        <div class="our-story-con" id="our-story-con">
             <div class="our-story-desc-con">
                 <div class="description-con">
                     <div class="all-heading">Our Story</div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores culpa, 
-                        natus numquam repudiandae quis animi magni laudantium deserunt odio nulla illum corporis totam minus veniam. 
-                        Culpa voluptatibus natus quidem reiciendis!
+                    <p>At our restaurant, we pride ourselves on providing our customers with an exceptional dining experience that goes beyond just great food. Our story began with 
+                        a passion for bringing people together over delicious meals and creating a warm, welcoming atmosphere where everyone can feel at home.
+                        From the moment you step through our doors, you'll be greeted with friendly faces and a warm, inviting ambiance that's perfect for any occasion.
+                    </p>
+
+                    <p>Our menu features a range of delicious dishes that are prepared with only the freshest, high-quality ingredients. We believe in using locally sourced produce whenever
+                         possible, and our chefs are dedicated to creating dishes that are both flavorful and nutritious.
                     </p>
     
                     <a href="#"><button class="btn-main">Read more</button></a>
@@ -69,161 +76,101 @@
         </div>
 
         <!-- Our menu starts here -->
-        <div class="our-menu-con">
+        <div class="our-menu-con" id="our-menu-con">
             <div class="menu-img-con">
                 <img src="images/food-menu.jpg" alt="">
             </div>
 
             <div class="our-menu-des-con">
-                <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever.</h3>
+                <h3>"Elevate your dining experience with every bite"</h3>
 
-                <p class="parag-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                     It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
-                     like Aldus PageMaker including versions of Lorem Ipsum.
+                <p class="parag-1">At our restaurant, we believe that food is more than just sustenance - it's an experience. Our menu is crafted with care and attention to detail, featuring a range of 
+                    dishes that are both delicious and nourishing. Each dish is made with the freshest, high-quality ingredients and prepared with the utmost care by our talented chefs.
                 </p>
 
-                <p class="parag-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
-                    like Aldus PageMaker including versions of Lorem Ipsum.
+                <p class="parag-2">We draw inspiration from a variety of culinary traditions, combining classic techniques with innovative flavors to create a menu that is both familiar and exciting. Whether you're in the mood for a hearty pasta dish, a juicy steak, or a flavorful vegetarian option, our menu has something to satisfy every palate. 
+                    And with our commitment to using locally sourced produce whenever possible, you can be sure that every bite is not only delicious but also good for you and the environment.
                </p>
 
-               <p class="parag-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+               <p class="parag-3">At our restaurant, we believe that dining should be an experience that engages all the senses. That's why we pay close attention to the presentation of each dish, using beautiful plating and carefully selected garnishes to create a feast for the eyes as well as the palate. We are also committed to providing a warm and welcoming atmosphere, where you can sit back, relax, and enjoy the company of friends and family while savoring
+                 the flavors of our food. So whether you're joining us for a quick lunch or a leisurely dinner, we invite you to experience the magic of our menu and the warm hospitality of our restaurant.
                </p>
             </div>
         </div>
 
+        <!-- Our Best Seller Starts Here -->
 
-        <div class="our-best-seller-con">
-            <div class="all-heading">Our Story</div>
+        <div class="our-best-seller-con" id="our-best-seller-con">
+            <div class="all-heading">Our Best Seller</div>
             <div class="best-sellers">
 
                 <div class="best-seller">
-                    <img src="images/menu.jpg" alt="Food Picture">
+                    <img src="images/menu-1.jpg" alt="Food Picture">
                     <h3>Premium Steak</h3>
                     <h4>₱999</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Asperiores voluptatem iure explicabo, accusamus porro aliquam incidunt similique esse, sapiente in vitae 
-                        recusandae sit aut totam iusto tempore hic obcaecati repellendus!
+                    <p>Juicy, tender, and full of flavor, our steak is grilled to perfection and served with your choice of delectable sides. 
                     </p>
                 </div>
 
                 <div class="best-seller">
-                    <img src="images/menu.jpg" alt="Food Picture">
-                    <h3>Premium Steak</h3>
-                    <h4>₱999</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Asperiores voluptatem iure explicabo, accusamus porro aliquam incidunt similique esse, sapiente in vitae 
-                        recusandae sit aut totam iusto tempore hic obcaecati repellendus!
+                    <img src="images/menu-2.jpg" alt="Food Picture">
+                    <h3>Side up special</h3>
+                    <h4>₱349</h4>
+                    <p>Start your day off right with our delicious breakfast options! From fluffy pancakes to savory omelets and everything in between, we've got something to satisfy every craving. 
+                        
                     </p>
                 </div>
 
                 <div class="best-seller">
-                    <img src="images/menu.jpg" alt="Food Picture">
-                    <h3>Premium Steak</h3>
-                    <h4>₱999</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Asperiores voluptatem iure explicabo, accusamus porro aliquam incidunt similique esse, sapiente in vitae 
-                        recusandae sit aut totam iusto tempore hic obcaecati repellendus!
+                    <img src="images/menu-3.jpg" alt="Food Picture">
+                    <h3>Roasted Chicken</h3>
+                    <h4>₱849</h4>
+                    <p>Savor the rich, succulent flavor of our roast chicken, made with the freshest, high-quality ingredients. Our expert chefs prepare each chicken with care, seasoning it to perfection 
+                        and roasting it until it's juicy and tender.
                     </p>
                 </div>
 
                 <div class="best-seller">
-                    <img src="images/menu.jpg" alt="Food Picture">
-                    <h3>Premium Steak</h3>
+                    <img src="images/menu-4.jpg" alt="Food Picture">
+                    <h3>Creamy Pasta</h3>
                     <h4>₱999</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Asperiores voluptatem iure explicabo, accusamus porro aliquam incidunt similique esse, sapiente in vitae 
-                        recusandae sit aut totam iusto tempore hic obcaecati repellendus!
+                    <p>Indulge in our delectable pasta dishes made with the freshest ingredients and cooked to perfection. Whether you're in the mood for a classic spaghetti Bolognese or a creamy fettuccine 
+                        Alfredo, our menu has something to satisfy every pasta craving. 
                     </p>
                 </div>
 
                 <div class="best-seller">
-                    <img src="images/menu.jpg" alt="Food Picture">
-                    <h3>Premium Steak</h3>
+                    <img src="images/menu-5.jpg" alt="Food Picture">
+                    <h3>Chicken Ham</h3>
                     <h4>₱999</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Asperiores voluptatem iure explicabo, accusamus porro aliquam incidunt similique esse, sapiente in vitae 
-                        recusandae sit aut totam iusto tempore hic obcaecati repellendus!
+                    <p>Enjoy the delicious and savory taste of our chicken ham, made with high-quality ingredients and cooked to perfection. Our chicken ham is a healthier alternative to traditional pork ham, 
+                        without sacrificing any of the flavor. 
                     </p>
                 </div>
 
                 <div class="best-seller">
-                    <img src="images/menu.jpg" alt="Food Picture">
-                    <h3>Premium Steak</h3>
-                    <h4>₱999</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Asperiores voluptatem iure explicabo, accusamus porro aliquam incidunt similique esse, sapiente in vitae 
-                        recusandae sit aut totam iusto tempore hic obcaecati repellendus!
+                    <img src="images/menu-6.jpg" alt="Food Picture">
+                    <h3>Home made Doughnut</h3>
+                    <h4>₱459</h4>
+                    <p>Treat yourself to the sweet and satisfying taste of our doughnuts, made fresh daily with the finest ingredients. Our doughnuts are soft, fluffy, and bursting with flavor, from classic glazed to decadent chocolate and everything in between.
                     </p>
                 </div>
 
                 <div class="best-seller">
-                    <img src="images/menu.jpg" alt="Food Picture">
-                    <h3>Premium Steak</h3>
-                    <h4>₱999</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Asperiores voluptatem iure explicabo, accusamus porro aliquam incidunt similique esse, sapiente in vitae 
-                        recusandae sit aut totam iusto tempore hic obcaecati repellendus!
+                    <img src="images/menu-7.jpg" alt="Food Picture">
+                    <h3>Baked Sushi</h3>
+                    <h4>₱749</h4>
+                    <p>Experience a new twist on the classic Japanese dish with our baked sushi. Our expert chefs prepare each roll with the freshest ingredients, from tender sushi rice to flavorful fish and vegetables. 
                     </p>
                 </div>
 
                 <div class="best-seller">
-                    <img src="images/menu.jpg" alt="Food Picture">
-                    <h3>Premium Steak</h3>
-                    <h4>₱999</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Asperiores voluptatem iure explicabo, accusamus porro aliquam incidunt similique esse, sapiente in vitae 
-                        recusandae sit aut totam iusto tempore hic obcaecati repellendus!
+                    <img src="images/menu-8.jpg" alt="Food Picture">
+                    <h3>Overload Tachos</h3>
+                    <h4>₱249</h4>
+                    <p>Satisfy your cravings with our signature dish - tachos! Our tachos are a delicious and indulgent twist on classic nachos, made with crispy tater tots instead of traditional tortilla chips. 
                     </p>
-                </div>
-
-                <div class="best-seller">
-                    <img src="images/menu.jpg" alt="Food Picture">
-                    <h3>Premium Steak</h3>
-                    <h4>₱999</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Asperiores voluptatem iure explicabo, accusamus porro aliquam incidunt similique esse, sapiente in vitae 
-                        recusandae sit aut totam iusto tempore hic obcaecati repellendus!
-                    </p>
-                </div>
-
-                <div class="best-seller">
-                    <img src="images/menu.jpg" alt="Food Picture">
-                    <h3>Premium Steak</h3>
-                    <h4>₱999</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Asperiores voluptatem iure explicabo, accusamus porro aliquam incidunt similique esse, sapiente in vitae 
-                        recusandae sit aut totam iusto tempore hic obcaecati repellendus!
-                    </p>
-                </div>
-
-                <div class="best-seller">
-                    <img src="images/menu.jpg" alt="Food Picture">
-                    <h3>Premium Steak</h3>
-                    <h4>₱999</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Asperiores voluptatem iure explicabo, accusamus porro aliquam incidunt similique esse, sapiente in vitae 
-                        recusandae sit aut totam iusto tempore hic obcaecati repellendus!
-                    </p>
-                </div>
-
-                <div class="best-seller">
-                    <img src="images/menu.jpg" alt="Food Picture">
-                    <h3>Premium Steak</h3>
-                    <h4>₱999</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Asperiores voluptatem iure explicabo, accusamus porro aliquam incidunt similique esse, sapiente in vitae 
-                        recusandae sit aut totam iusto tempore hic obcaecati repellendus!
-                    </p>
-                </div>
-                
+                </div>                
             </div>
         </div>
     
@@ -240,7 +187,7 @@
                                     <img src="images/testimonial-img.jpg" alt="" class="card-img">
                                 </div>
                                 <div class="card-content">
-                                    <p class="description">"The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit."</p>
+                                    <p class="description">"I had the pleasure of dining at this restaurant last night and it was truly an amazing experience! The food was delicious, the service was impeccable, and the atmosphere was warm and inviting."</p>
                                     <h2 class="name">Analyn Ampo</h2>
                                     <p class="role">Food Expert</p>
                                     <!-- <button class="button">View More</button> -->
@@ -249,11 +196,11 @@
     
                             <div class="card swiper-slide">
                                 <div class="card-image">
-                                    <img src="images/testimonial-img.jpg" alt="" class="card-img">
+                                    <img src="images/testimonial-img-2.jpg" alt="" class="card-img">
                                 </div>
                                 <div class="card-content">
-                                    <p class="description">"The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit."</p>
-                                    <h2 class="name">Analyn Ampo</h2>
+                                    <p class="description">"I recently ordered takeout from this restaurant and was blown away by the quality of the food. It arrived hot and fresh, and the flavors were absolutely amazing. "</p>
+                                    <h2 class="name">John Paul Narvasa</h2>
                                     <p class="role">Food Expert</p>
                                     <!-- <button class="button">View More</button> -->
                                 </div>
@@ -261,11 +208,11 @@
     
                             <div class="card swiper-slide">
                                 <div class="card-image">
-                                    <img src="images/testimonial-img.jpg" alt="" class="card-img">
+                                    <img src="images/testimonial-img-3.jpg" alt="" class="card-img">
                                 </div>
                                 <div class="card-content">
-                                    <p class="description">"The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit."</p>
-                                    <h2 class="name">Analyn Ampo</h2>
+                                    <p class="description">"I've been a regular at this restaurant for years and it never fails to impress me. The menu is always changing and the food is consistently delicious. "</p>
+                                    <h2 class="name">Ayumi</h2>
                                     <p class="role">Food Expert</p>
                                     <!-- <button class="button">View More</button> -->
                                 </div>
@@ -360,7 +307,7 @@
         </div>
 
         <!-- Contact Info Starts here -->
-        <div class="contact-con">
+        <div class="contact-con" id="contact-con">
             <div class="contact-info">
                 <div class="details-con">
                     <h1>Opening Hours</h1>
@@ -396,15 +343,15 @@
                 <div class="message-us-desc">
                     <h1>Message Us Via Email.</h1>
                     <h2>& We'll Reserved a sit for you!</h2>
-                    <p>also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
-                        sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem 
-                        Ipsum
+                    <p>If you have any questions or would like to schedule an appointment, please don't hesitate to email us
+                        Our team is available to assist you with any inquiries and ensure that your experience at Adsvanced Media Tech is a positive one.
+                         We look forward to hearing from you and helping you bring your tattoo vision to life.
                     </p>
                 </div>
             
 
                 <div class="email-us-form">
-                    <form>
+                    <form action="https://formspree.io/f/xyyakyvb" method="POST">
                         <input placeholder="Full Name" type="text" id="fname" id="fname" name="fname"><br>
                         <input placeholder="Email" type="email" id="email" name="email"> <br>
                         <textarea placeholder="Message" name="message" id="message" cols="30" rows="10"></textarea> <br>
@@ -417,9 +364,7 @@
         <!-- Footer Starts Here -->
         <div class="footer">
             <h1>ADSvanced Media Tech Restaurant</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
-                industry's standard dummy text ever since the 1500s,
-            </p>
+            <p>"Where every bite is a delicious adventure!"</p>
             <div class="icons">
                 <div class="icon">
                     <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
@@ -438,11 +383,23 @@
                 </div>
             </div>
         </div>
-        
-        
-        <!-- Swips JS -->
-        <script src="js/swiper-bundle.min.js"></script>
-        <!-- Customize JS -->
-        <script src="js/script.js"></script>
+        <button id="topBtn"><i class="fas fa-arrow-up"></i></button>
+
+
+        <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+    
+    
+    
+    <!-- Swips JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- Customize JS -->
+    <script src="js/script.js"></script>
+    <!-- Chat Feature JS -->
+    <script src="js/chat-feature.js"></script>
     </body>
 </html>
