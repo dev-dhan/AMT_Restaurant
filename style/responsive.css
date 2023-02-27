@@ -584,6 +584,10 @@
       padding: 50px 15px;
   }
 
+  .best-seller img {
+    height: 280px;
+  }
+
   .best-sellers {
       grid-template-columns: repeat(1,1fr); 
   }
@@ -625,7 +629,7 @@
   
 
   .team-img-con img{
-      height: 440px;
+      height: 430px;
       width: 100%;
   }
 
@@ -675,6 +679,10 @@
 
   .message-us-main-con {
       padding: 50px 15px;
+  }
+
+  .message-us-main-con .all-heading {
+    margin-bottom: 10px;
   }
 
   .footer {
